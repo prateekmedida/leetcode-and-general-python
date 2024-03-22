@@ -1,0 +1,12 @@
+marks={}
+for i in range(5):
+    s=input("enter subject name :")
+    m=int(input("enter marks :"))
+    marks[s]=m
+print(marks)
+tot=0
+for item in marks.items():
+    tot=tot + item[1]
+print("tot =",tot)
+print("no of subject ",len(marks))
+print("avg =",tot/len(marks))
