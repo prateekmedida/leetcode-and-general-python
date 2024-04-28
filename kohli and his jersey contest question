@@ -1,0 +1,9 @@
+a=int(input())
+if '1' in str(a):
+  a=(str(a).replace('1','8',1))
+else:
+   a=(str(a).replace('8','1',1))
+print(int(a))
+
+#input=1811
+#output=8811
